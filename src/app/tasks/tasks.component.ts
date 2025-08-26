@@ -23,10 +23,6 @@ export class TasksComponent {
     return this.tasksService.getUserTaks(this.userId);
   }
 
-  onCompleteTask(id: string) {
-    
-  }
-
   onStartAddTask() {
     this.isAddingTask = true;
   }
